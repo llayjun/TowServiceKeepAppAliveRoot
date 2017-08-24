@@ -1,0 +1,4 @@
+1、TowServiceKeepAppAlive:利用广播(Intent.ACTION_TIME_TICK)，一分钟发一次广播，调起service1和service2。startservice
+2、TwoServiceAppAlive：利用AIDL跨进程之间进行守护service，LocalService和RemoteService相互绑定。bindservice
+3、小益哥的例子，为第一种利用广播
+4、当清理最近应用，不能保证双进程同时存在。
